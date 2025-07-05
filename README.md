@@ -1,2 +1,2 @@
-# corbiecampbell.github.io
-Software Web Development utilizing MEAN
+# CS-499 Capstone 
+Software Web Enhancement utilizing MEAN

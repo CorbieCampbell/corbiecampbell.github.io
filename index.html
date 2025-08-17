@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <!-- Header -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Charles Campbell</title>
+  </head>
+
+  <!-- HTML Body -->
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="index.html" class="link"
+          >CCC</a
+        >
+      </h3>
+
+      <div id="nav" class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Project</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h2>ePortfolio Item: Project Enhancement,
+        <br> by: <span class="about__name">Charles Campbell.</span></h2>
+        
+        <div class="about__contact center">
+          <a
+            href="https://github.com/CorbieCampbell/corbiecampbell.github.io"
+            aria-label="github"
+            class="link link--icon"
+            target=”_blank”
+          >
+            <i aria-hidden="true" class="fab fa-github"> Full Repository</i>
+          </a>
+        </div>
+        
+        <!-- Self-Assessment -->
+        <h3 class="about__role">SELF-ASSESSMENT</h3>
+        
+        <p class="about__desc">
+            This ePortfolio item is meant to highlight my strengths as a software engineer. I'll showcase my enhancements on a prior
+            project, wherein I would not only improve the: <u>software design & engineering, algorithms & data structures, and
+            the database</u> of the software itself, but also show how I have improved as a computer scientist and software developer.
+        </p>
+
+        <p class="about__desc">
+            Through my studies in my bachelors of computer science, I've accumulated a plethora of knowledge and hands on skills.
+            This enhacement project is a culmination of what I've gained, learned, and practiced through my journey.
+        </p>
+
+        <ul class="about__desc">
+            <li><strong>• Collaborating in a team environment: </strong></li>
+            <p>
+                Computer scientist development teams are a cohesive group that utilize their critical thinking,
+                technical skills, and problem solving skills together to provide professional, high-quality 
+                solutions to problems in the systems and products they design.
+            </p>
+            <br>
+            <p>    
+                I've researched and practiced my understanding of the Software Development Lifecycle (SDLC), and the industry
+                standards of Agile methodologies, to know how a fast paced and efficient team of technical engineers should operate to
+                tackle and solve almost any problem.                
+            </p><br>
+            <li><strong>• Communicating with stakeholders: </strong></li>
+            <p>
+                Through my work in my projects (much like the original artifact I've improved upon), I've gained firsthand practice
+                on the importance of communicating with stakeholders (or individual clients). The gathering of requirements and understanding
+                the problem directly helps either a team or solo computer engineer to ensure system/project success. Through clear and non-technical 
+                communication, both stakeholders and I were able to work collaboratively to produce effective and sound solutions.
+            </p>
+            <br>
+            <li><strong>• Data structures & algorithms: </strong></li>
+            <p>
+                Data is the critical element in any software. The algorithms that help move/modify that data are also essential for
+                desired results. In my studies and practice in designing of data structures, along with the algorithms such as the fundemental
+                CRUD operations, I've become both proficient in modeling structures like hash-tables, lists, or trees while knowing how to handle that
+                data with the use of algorithms.
+            </p>
+            <br>
+            <li><strong>• Software engineering & databases: </strong></li>
+            <p>
+                While both researching and practicing engineering technical solutions, I've come to learn the importance of key concepts when designing software. 
+                I know that designing the codebase should be done with continuous testing, and formatted in such a way that both makes it easily readable/understandable 
+                by other team members or future developers and makes it easier to maintain and evolve. Easily understood and readable software and diagrams/documentation 
+                are essential skills I've gained and will continue to improve upon.
+            </p>
+            <br>
+            <p><i>“Any fool can write code that a computer can understand.<br>Good programmers write code that humans can understand.”</i> - Martin Fowler</p><br>
+            <li><strong>• Security: </strong></li>
+            <p>
+                Studying about cyryptography, and implementing mitigation strategies like authentication and secure data storage have helped me learn how to  
+                keep the users safe when they operate with software. I've come to know the importance and need for secure coding practices, and how essential 
+                staying up to date on the guidelines provided by OWASP or utilizing dependecy check tools urged by the NIST can help eliminate vulnerabilities 
+                and, most importantly, ensure business continuity and trust with its users and the general public.
+            </p>
+        </ul>
+
+        <h3 class="about__role" id="projects">Summary</h3>
+
+        <p class="about__desc">
+            The original project was a simple Python & MongoDB web development artifact, that helped a client view a front-end dashboard 
+            of data that was pulled from a database with a simple API that did not take full advantage of CRUd algorithms. I sought to 
+            evolve the project into a simple application (online glossary), while upgrading from the Python code base to a more modern web 
+            development tool: the MEAN full-stack. Along with this upgrade of software engineering, I also wished to upgrade the algorithms 
+            (CRUD) and test a new data structure that would allow for more user functions and capabilities. Finally, I wished to evolve the use 
+            of the database (MongoDB) so that it would allow for more flexibility and security in the program. Below are the results. 
+        </p>
+        <!-- End of Self-Assessment -->
+
+        <!-- Code Review Video -->
+        <h3 class="about__role">INFORMAL CODE REVIEW:</h3>
+
+        <video controls
+            style="margin-top: 20px;"
+            id="code_review_video"
+            width="75%" height="auto"
+            src="charles_campbell_code_review.mp4"
+            type='video/mp4'>
+        </video>
+      </div>
+      <!-- End of Introduction (Self-Assessment & Summary) -->
+
+      <!-- Enhancements Section -->
+      <section class="section projects">
+        
+        <h2 class="section__title">Enhancements</h2>
+
+        <div class="projects__grid">
+          <!-- Enhancement One -->
+           <div class="project">
+            <h3>Software Design & Engineering</h3>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">-></li>
+              <li class="project__stack-item">MEAN Stack</li>
+            </ul>
+            <a
+              href="Artifacts/Enhancement One Narrative.pdf"
+              aria-label="live preview"
+              class="link link--icon"
+              target=”_blank”
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"> View the full narrative here!</i>
+            </a>
+            <p class="project__description">
+              Transferring the logic of the application to a different development tool like the MEAN stack involved a myraid of 
+              testing, research, and problem solving. In the end, the final result showcased a vast improvement of not only 
+              the front-end, but an overall higher-quality codebase and structure; the MEAN stack tools helped make this possible.
+            </p>
+            <p class="project__description">
+                <u><strong>Before:</strong></u>
+            </p>
+            <img type="img" src="resources/original.png">
+            <p class="project__description">
+                <u><strong>After:</strong></u>
+            </p>
+            <img type="img" src="resources/enhanced.gif">
+            <p class="project__description">
+              The enhancement allowed me to showcase my mastery of building collaborative environments that 
+              support organizational decision making; my ability to design, develop, and deliver professional-quality 
+              communications that are coherent, technically sound, and appropriately adapted to specific audiences and 
+              contexts; and lastly, demonstrating my ability to use well-founded and innovative techniques, skills, 
+              and tools in computing practices for solutions that deliver value.
+            </p>
+            <br>
+            <!-- Link to repositories -->
+            <a
+              href="Artifacts/Charles Campbell Original Artifact.zip"
+              aria-label="source code"
+              class="link link--icon"
+              target=”_blank”
+            >
+              <i aria-hidden="true" class="fab fa-github"> Original Artifact</i>
+            </a>
+            <a
+              href="Artifacts/Charles Campbell Enhanced Software Design.zip"
+              aria-label="source code"
+              class="link link--icon"
+              target=”_blank”
+            >
+              <i aria-hidden="true" class="fab fa-github"> Enhanced Artifact</i>
+            </a>
+          </div>
+          <!-- Enhancement Two -->
+          <div class="project">
+            <h3>Algorithms & Data Structures</h3>
+            <ul class="project__stack">
+              <li class="project__stack-item">Read-Only Data</li>
+              <li class="project__stack-item">-></li>
+              <li class="project__stack-item">Full CRUD Operations</li>
+            </ul>
+            <a
+              href="Artifacts/Enhancement Two Narrative.pdf"
+              aria-label="live preview"
+              class="link link--icon"
+              target=”_blank”
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"> View the full narrative here!</i>
+            </a>
+            <p class="project__description">
+              Before, in the original artifact, the only algorithm that was used from the Python CRUD API module
+              was to read data from the database. Additionally, the radio buttons were only able to filter based 
+              on predefined parameters. The user had no way to filter how they saw fit, they also couldn't 
+              create a new item, delete existing entries, or update any data either. I sought to enhance those 
+              algorithms to ensure that the user could have more capabilities, and my enhancements in the JavaScript 
+              codebase proved fruitful with a online glossary page with add, edit and delete capabilities 
+              (see demo in Databases enhancement).
+            </p>
+            <p class="project__description">
+              The enhancement allowed me to showcase my mastery of designing and evaluating computing solutions 
+              that solved a given problem using algorithmic principles and appropriate computer science practices 
+              & standards; along with demonstrating my ability to use well-founded and innovative techniques, skills, 
+              and tools in computing practices for solutions that deliver value.
+            </p>
+            <br>
+            <!-- Link to repositories -->
+            <a
+              href="Artifacts/Charles Campbell Original Artifact.zip"
+              aria-label="source code"
+              class="link link--icon"
+              target=”_blank”
+            >
+              <i aria-hidden="true" class="fab fa-github"> Original Artifact</i>
+            </a>
+            <a
+              href="Artifacts/Charles Campbell Enhanced Algorithms.zip"
+              aria-label="source code"
+              class="link link--icon"
+              target=”_blank”
+            >
+              <i aria-hidden="true" class="fab fa-github"> Enhanced Artifact</i>
+            </a>
+          </div>
+          <!-- Enhancement Three -->
+          <div class="project">
+            <h3>Databases</h3>
+            <br>
+            <a
+              href="Artifacts/Enhancement Three Narrative.pdf"
+              aria-label="live preview"
+              class="link link--icon"
+              target=”_blank”
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"> View the full narrative here!</i>
+            </a>
+            <p class="project__description">
+              For the final enhancement, I wanted to expand upon the capabilities of utilizing the MongoDB, a NoSQL 
+              database that's a common tool used in web development. I wanted to give users the capabilities to create and delete  
+              their own lists; but I instantly knew of a potential data security and logic flaw this could present. If 
+              a user deleted the main list (the CS terms collection), this could cause potential unforseen errors/flaws and 
+              be a major security issue to the valuable data and logic resources held within the MongoDB. Thus, thanks to 
+              the versatile MEAN stack and the powerful JavaScript versatility, I was able to both implement both the desired 
+              enhacement, while also designing the functions to mitigate the identified issue by ensuring users couldn't delete 
+              the original CS terms list (see below). 
+            </p>
+            <p class="project__description">
+                <u>Final result after all enhancements:</u>
+            </p>
+            <img type="img" src="resources/final.gif">
+            <p class="project__description">
+              This final enhancement allowed me to demonstrate my ability to use well-founded 
+              and innovative techniques, skills, and tools in computing practices to fulfill technical solutions that 
+              deliver value & accomplish specific goals; while also designing with a security mindset that anticipates 
+              potential vulnerabilities, mitigates flaws, and enhances security of data & resources.
+            </p>
+            <br>
+            <!-- Link to repositories -->
+            <a
+              href="Artifacts/Charles Campbell Original Artifact.zip"
+              aria-label="source code"
+              class="link link--icon"
+              target=”_blank”
+            >
+              <i aria-hidden="true" class="fab fa-github"> Original Artifact</i>
+            </a>
+            <a
+              href="Artifacts/Charles Campbell Final Enhanced Artifact.zip"
+              aria-label="source code"
+              class="link link--icon"
+              target=”_blank”
+            >
+              <i aria-hidden="true" class="fab fa-github"> Enhanced Artifact</i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">MEAN Stack</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">MongoDB</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">UI/UX</li>
+          <li class="skills__list-item btn btn--plain">Full-Stack Development</li>
+          <li class="skills__list-item btn btn--plain">Data Security</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:corbiecampbell@yahoo.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <a href="https://github.com/CorbieCampbell" target=”_blank” class="link footer__link">
+        Developed by Charles "Corbie" Campbell
+      </a>
+      <br>
+      <a href="https://github.com/rjshkhr/cleanfolio-minimal" target=”_blank” class="link footer__link">
+        Cleanfolio Template by Raj Shekhar
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
